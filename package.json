@@ -2,9 +2,9 @@
   "name": "Queen_Anju",
   "version": "4",
   "description": "A Simple WhatsApp bot created By King-Rashmika",
-  "main": "mainjs",
+  "main": "queen.js",
   "scripts": {
-    "start": "pm2 start main.js --deep-monitoring --attach --name Queen_Anju",
+    "start": "pm2 start queen.js --deep-monitoring --attach --name Queen_Anju",
     "stop": "pm2 stop Queen_Anju",
     "restart": "pm2 restart Queen_Anju"
   },
@@ -64,7 +64,6 @@
     "util": "^0.12.4",
     "vm": "^0.1.0",
     "wa-sticker-formatter": "4.4.4",
-    "youtube-dl-exec": "^3.0.10",
     "yt-search": "2.11.1"
   }
 }
